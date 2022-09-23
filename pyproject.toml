@@ -2,7 +2,7 @@
 name = "shuffgauss"
 version = "0.1.0"
 description = "A package to calculate shuffle gaussian mechanism."
-authors = ["spliew <seng2pei@gmail.com>"]
+authors = ["xxx<xxx@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]

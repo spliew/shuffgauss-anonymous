@@ -17,7 +17,6 @@ Our implementation particularly allows fast comparisons of (epsilon, delta) at d
 
 To install,
 ```bash
-git clone https://github.com/spliew/shuffgauss
 cd shuffgauss
 pip install -e .
 ```
@@ -54,17 +53,4 @@ print(fastsci.get_eps_fast(delta,1000))
 
 ```
 
-# Citation
-If you use this code in your work, please cite our paper:
 
-```
-@article{liew2022shuffle,
-  title={Shuffle Gaussian Mechanism for Differential Privacy},
-  author={Liew, Seng Pei and Takahashi, Tsubasa},
-  journal={arXiv preprint arXiv:2206.09569},
-  year={2022}
-}
-```
-
-
-This code is heavily influenced by [autodp](https://github.com/yuxiangw/autodp).
